@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../assets/hero.jpg";
+import Hero from "../assets/Hero.jpg";
 
 export default function HeroSec() {
   return (
