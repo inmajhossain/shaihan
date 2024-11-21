@@ -9,7 +9,7 @@ export default function Diff() {
         </div>
       </div>
       <div className="diff-item-2">
-        <div className="bg-slate-600 grid place-content-center text-4xl lg:text-8xl font-black">
+        <div className="bg-slate-600 grid place-content-center text-4xl lg:text-8xl font-black text-amber-100">
           SHOMRAT SHAIHAN
         </div>
       </div>

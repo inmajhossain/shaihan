@@ -14,10 +14,10 @@ export default function Carasol() {
   useEffect(() => {
     const slider = new Glide(".glide-09", {
       type: "carousel",
-      autoplay: 1,
-      animationDuration: 7000,
+      autoplay: 2,
+      animationDuration: 5000,
       animationTimingFunc: "linear",
-      perView: 3,
+      perView: 2,
       classes: {
         nav: {
           active: "[&>*]:bg-wuiSlate-700",
@@ -42,62 +42,62 @@ export default function Carasol() {
   return (
     <>
       {/*<!-- Component: Testimonial carousel --> */}
-      <div className="glide-09 relative mx-auto lg:max-w-[1200px]  ">
+      <div className="glide-09 relative mx-auto w-[390px] lg:max-w-full  ">
         {/* <!-- Slides --> */}
         <div data-glide-el="track" className="">
-          <ul className="bg-indigo-100 whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full lg:w-[1000px] overflow-hidden p-[20px]">
+          <ul className="bg-indigo-100 whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full lg:w-[1000px] overflow-hidden p-[5px] lg:p-[20px] items-center">
             <li>
               <img
                 src={G1}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain "
               />
             </li>
             <li>
               <img
                 src={G6}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain  "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain  "
               />
             </li>
             <li>
               <img
                 src={G3}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain  "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain  "
               />
             </li>
             <li>
               <img
                 src={G4}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain  "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain  "
               />
             </li>
             <li>
               <img
                 src={G5}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain   "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain   "
               />
             </li>
             <li>
               <img
                 src={G2}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain  "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain  "
               />
             </li>
             <li>
               <img
                 src={G7}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain  "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain  "
               />
             </li>
             <li>
               <img
                 src={G8}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain  "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain  "
               />
             </li>
             <li>
               <img
                 src={G9}
-                className="m-auto h-[200px] w-[250px] bg-cover object-contain  "
+                className="m-auto  lg:h-[200px] w-[250px] bg-cover object-contain  "
               />
             </li>
           </ul>

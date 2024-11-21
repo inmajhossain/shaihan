@@ -3,6 +3,7 @@ import G6 from "../assets/G6.jpg";
 
 // Icon Import from react Icon homepage. icon import korar age tarminal e package install kore nite hobe.
 import { GoCopilot } from "react-icons/go";
+import { NavLink } from "react-router-dom";
 export default function Header() {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
 
@@ -17,12 +18,13 @@ export default function Header() {
             role="navigation"
           >
             {/*      <!-- Brand logo --> */}
-            <a
+            <NavLink
               id="WindUI"
               aria-label="WindUI logo"
               aria-current="page"
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1 text-purple-900"
-              href="javascript:void(0)"
+              // href="javascript:void(0)"
+              to="/home"
             >
               {/* Brand Logo Start*/}
               {/* <GoCopilot className="size-[30px] text-purple-800 " /> */}
@@ -32,7 +34,7 @@ export default function Header() {
                 alt=""
               />
               SHOMRAT SHAIHAN
-            </a>
+            </NavLink>
             {/* Brand Logo End*/}
             {/*      <!-- Mobile trigger --> */}
             <button
@@ -73,35 +75,49 @@ export default function Header() {
               }`}
             >
               <li role="none" className="flex items-stretch">
-                <a
+                <NavLink
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-sky-500 focus:text-sky-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="{javascript:void(0)}"
+                  // href="{javascript:void(0)}"
+                  to="/home"
                 >
-                  <span>About</span>
-                </a>
+                  <span>Home</span>
+                </NavLink>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
+                <NavLink
+                  role="menuitem"
+                  aria-haspopup="false"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-sky-500 focus:text-sky-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  // href="{javascript:void(0)}"
+                  to="/about"
+                >
+                  <span>About</span>
+                </NavLink>
+              </li>
+              <li role="none" className="flex items-stretch">
+                <NavLink
                   role="menuitem"
                   aria-current="page"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 text-sky-500 transition-colors duration-300 hover:text-sky-600 focus:text-sky-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  // href="javascript:void(0)"
+                  to="/gallery"
                 >
                   <span>Galary</span>
-                </a>
+                </NavLink>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
+                <NavLink
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300  hover:text-sky-500 focus:text-sky-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  // href="javascript:void(0)"
+                  to="/contact"
                 >
                   <span>Contact Me</span>
-                </a>
+                </NavLink>
               </li>
             </ul>
             <div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">
