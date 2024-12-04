@@ -42,7 +42,7 @@ const PhotoGallery = () => {
         </div>
         <button
           onClick={handleToggle}
-          className="mt-8 bg-blue-500 text-white px-4 py-2 rounded flex mx-auto"
+          className="mt-8 btn btn-secondary text-white px-4 py-2 rounded flex mx-auto"
         >
           {showAll ? "See Less" : "See More"}
         </button>
