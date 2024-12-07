@@ -47,13 +47,9 @@
 
 import { Route, Routes } from "react-router-dom";
 import AboutMe from "./Pages/About";
-
 import Footer from "./componant/Footer";
-
 import Header from "./componant/Header";
-
 import PhotoGallery from "./componant/PhotoGallery";
-
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import { Navigate } from "react-router";
@@ -63,7 +59,6 @@ export default function App() {
     <>
       <div className="flex flex-col gap-[50px]">
         <Header />
-        {/* <Home /> */}
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/home" element={<Home />} />
