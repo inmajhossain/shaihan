@@ -47,13 +47,13 @@
 
 import { Route, Routes } from "react-router-dom";
 import AboutMe from "./Pages/About";
-import Carasol from "./componant/Carasol";
+
 import Footer from "./componant/Footer";
-import Galary from "./componant/Galary";
+
 import Header from "./componant/Header";
-import HeroSec from "./componant/HeroSec";
+
 import PhotoGallery from "./componant/PhotoGallery";
-import Diff from "./Diff";
+
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import { Navigate } from "react-router";

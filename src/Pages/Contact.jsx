@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Map from "../componant/Map";
 
 const Contact = () => {

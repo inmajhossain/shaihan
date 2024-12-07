@@ -8,18 +8,18 @@ export default function AboutMe() {
         <div className="flex flex-col justify-center items-center w-[390] md:w-[400px] lg:w-[550px]">
           <h1 className="font-bold text-3xl mb-[30px]">About Me</h1>
           <p className="text-center">
-            He is still now single Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Odio illo beatae quod voluptas exercitationem vero
-            officia, labore magnam reprehenderit, minus veniam cumque. Nobis,
-            quaerat velit delectus architecto est quod dolores officia cumque
-            exercitationem doloremque ut nisi ipsum dignissimos at sed numquam
-            labore ad culpa iste facere animi voluptas molestias doloribus. Quae
-            doloremque ducimus perferendis blanditiis molestiae magnam veniam!
-            Itaque ullam at rem, nostrum cupiditate officia reprehenderit labore
-            omnis mollitia quas neque reiciendis doloribus ratione iste,
-            corporis qui inventore, sequi ducimus sit aliquid enim culpa
-            exercitationem? Animi consectetur a, sint ea, libero expedita, nisi
-            nam nobis molestias amet corporis odio provident.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, aliquam
+            minima eligendi fugit ipsam autem tenetur quae voluptate assumenda
+            dolor similique dignissimos debitis corporis laboriosam dolorem sint
+            et eos inventore quaerat exercitationem veniam? Rerum ipsa
+            aspernatur libero delectus, eos ut porro fugiat nostrum perferendis
+            nulla consequatur reprehenderit facere reiciendis excepturi natus?
+            Sunt neque id voluptate, esse maxime tenetur assumenda beatae fugit
+            nulla deleniti autem mollitia vitae ducimus harum magni vero
+            suscipit facere, voluptates earum sint pariatur! Voluptatum quia
+            obcaecati error ex voluptates! Nesciunt, commodi? Consequuntur
+            repellendus natus officiis molestias similique provident labore unde
+            quidem, soluta, eos inventore ducimus in minus?
           </p>
         </div>
         <div>
