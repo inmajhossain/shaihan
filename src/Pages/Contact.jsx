@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Map from "../componant/Map";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -146,6 +147,7 @@ const Contact = () => {
           />
         </div>
       </form>
+      <Map />
     </div>
   );
 };

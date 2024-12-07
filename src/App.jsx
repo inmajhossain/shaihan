@@ -56,13 +56,16 @@ import PhotoGallery from "./componant/PhotoGallery";
 import Diff from "./Diff";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
+import { Navigate } from "react-router";
 
 export default function App() {
   return (
     <>
       <div className="flex flex-col gap-[50px]">
         <Header />
+        {/* <Home /> */}
         <Routes>
+          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/gallery" element={<PhotoGallery />} />
